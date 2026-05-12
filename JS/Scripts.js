@@ -16,6 +16,7 @@ Galeria_img.forEach(foto =>{
     celda.innerHTML = `
     <img src="${foto.src}" alt="${foto.Nombre}">
     <p>${foto.Nombre}</p>
+    <button class="btn-carrito" type="button">Añadir al carrito</button>
     `;
 
     //Toma la celda que se crea y la mete dentro de contenedor_galeria
